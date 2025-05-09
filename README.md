@@ -57,19 +57,18 @@ Este projeto simula o fluxo inicial de um jogo:
 
 ## 📂 Estrutura do Projeto
 
-Projeto/
-├── src/
-│   ├── Model/
-│   │   ├── Cadastro.java
-│   │   ├── Login.java
-│   │   ├── Jogo.java
-│   │   ├── Inicial.java
-│   │   ├── Usuario.java
-│   │   └── Avatar.java
-│   └── View/
-│       └── Main.java
-├── README.md
-└── outros arquivos e diretórios
+| Caminho                                 | Tipo / Descrição                             |
+| --------------------------------------- | -------------------------------------------- |
+| `Projeto/src/Model/Cadastro.java`       | Classe responsável pelo cadastro de usuários |
+| `Projeto/src/Model/Login.java`          | Classe que implementa lógica de autenticação |
+| `Projeto/src/Model/Jogo.java`           | Classe que controla o fluxo do jogo          |
+| `Projeto/src/Model/Inicial.java`        | Classe com lógica de inicialização do app    |
+| `Projeto/src/Model/Usuario.java`        | Modelo de dados do usuário                   |
+| `Projeto/src/Model/Avatar.java`         | Modelo de dados do avatar do usuário         |
+| `Projeto/src/View/Main.java`            | Ponto de entrada e interface gráfica (Swing) |
+| `Projeto/README.md`                     | Documentação principal do projeto            |
+| `Projeto/outros arquivos e diretórios`  | Dependências, configurações e assets         |
+
 
 ---
 
